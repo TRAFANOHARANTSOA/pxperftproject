@@ -103,11 +103,11 @@ font-size: 40px;
 /*section services*/
 #services{
   background-color:rgb(75, 202, 255);
-  height:400px;
+  min-height:400px;
 
 }
 .titleservices{
-    font-family: 'Segeo UI Light',arial, sans-serif;
+  font-family: 'Segeo UI Light',arial, sans-serif;
   font-size:40px;
 
 }
@@ -229,7 +229,7 @@ opacity:0.3;
   background-repeat: no-repeat;
   background-size: cover;
   background-color:rgb(53, 63, 71);
-  height: 505px;
+  min-height: 505px;
   }
   #whoami{
   background-color: rgb(53, 63, 71);
@@ -247,7 +247,7 @@ opacity:0.3;
   /*testimonials*/
   #testimonials{
     background-color:#fff;
-    height:305px;
+    min-height:305px;
     font-family: 'Segeo UI Light',arial, sans-serif;
   }
   .testimonialstitle {
@@ -267,7 +267,7 @@ opacity:0.3;
   background-image: url(images/contact/contactcup.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 815px;
+  min-height: 815px;
 }
 .formgroup input, .formgroup textarea{
   background:none;
@@ -285,7 +285,7 @@ button {
 /*footer*/
 #pagefooter{
 background-color: rgb(53, 63, 71);
-height:180px;
+min-height:180px;
 }
 
 #pagefooter li a {

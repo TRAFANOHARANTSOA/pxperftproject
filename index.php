@@ -2,10 +2,10 @@
 
 
 <section id="services">
-      <div class="container d-flex h-100  text-white pl-0 pr-0" style="height:400px">
-          <div class="row align-self-center servicescol" >
+      <div class="container  text-white pl-0 pr-0">
+          <div class="row  servicescol" >
             <div class="col-sm-12">
-                <h1 class="text-uppercase  mb-5 titleservices"><span class="text-underline">ser</span>vices</h1>
+                <h1 class="text-uppercase mt-5 mb-5 titleservices"><span class="text-underline">ser</span>vices</h1>
             </div>
             <div class="col-sm-3" >
               <img src="images/services/coffee.gif" class="img-fluid mb-4 " alt="coffee">
@@ -134,7 +134,7 @@
 </section><!-- .section -->
 
 <section id="twitter" class="section">
-    <div class="container  pt-5 pl-0 pr-0 d-flex h-100 twittercontainer "  style="height:305px">
+    <div class="container  pt-5 pl-0 pr-0 twittercontainer ">
       <div class="row ">
         <div class="col-sm-12">
             <h1 class=" text-white mt-4 twittertitle "> <span class="text-underline">TWI</span>TTER
@@ -184,7 +184,7 @@
 
 <section id="contact">
     <div class="container  text-white pt-5 pb-4">
-        <h2 class="text-uppercase pt-5 pb-5">Contact</h2>
+        <h2 class="text-uppercase pt-5 pb-5"><span class="text-underline">co</span>ntact</h2>
     </div>
     <div class="container  ">
       <form>

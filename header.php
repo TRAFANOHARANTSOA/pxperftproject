@@ -72,4 +72,4 @@
             <span  class=" text-uppercase text-white">i'm looking for things i've never seen before." </span>
           </p>
         </div>
-      </header>
+  </header>
