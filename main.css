@@ -1,0 +1,295 @@
+
+@font-face {
+  font-family: 'SEGEO Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Segoe UI Bold'), local('SegoeUI-bold'), local('segoeuib');
+}
+@font-face {
+  font-family: 'Segeo UI Semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Segoe UI Semibold'), local('SegoeUI-Semibold');
+}
+@font-face {
+  font-family: 'SEGEO Normal';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Segoe UI'), local('SegoeUI');
+}
+@font-face {
+  font-family: 'Segeo UI Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Segoe UI Light'), local('SegoeUI-Light');
+}
+
+
+/*body*/
+body{
+font-family:'SEGEO Normal', arial, sans-serif;
+background-color: rgb(81, 95, 103);
+}
+
+/*fin body*/
+
+/*grid*/
+.pink{
+  background-color: rgba(255, 0, 0,0.2);
+  min-height:4976px;
+  max-width: 11.666667%;
+  z-index: 999;
+}
+/*fin grid*/
+
+/*header*/
+.bgcouleur{
+  background-color: rgba(53, 63, 70,0.85);
+  min-height: 150px;
+  }
+
+ul li a.active, .nav-link:hover{
+  color: rgba(75, 202, 255)!important;
+  border: 1px solid rgba(75, 202, 255);
+  font-family:'SEGEO Bold', arial, sans-serif;
+  font-size: 18.67px!important;
+  }
+
+li a {
+  font-family:'SEGEO Bold', arial, sans-serif;
+  font-size:18.67px;
+}
+.easy{
+font-size: 40px;
+}
+
+.edeeasy {
+   color: rgba(75, 202, 255);
+ }
+
+/*fin header*/
+
+/*hero*/
+.bgimg{
+  background-image: url(images/header/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+}
+
+.phrasedaccueil {
+  font-family: 'Segeo UI Light', arial, sans-serif;;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  margin-top: 225px;
+  flex-flow: wrap;
+  }
+
+.phrasedaccueil span{
+  font-family: 'Segeo UI Light', arial, sans-serif;
+  font-size: 42px;
+  background-color: rgba(53, 63, 70,0.85);
+  height: 66px;
+  width: max-content;
+  margin-bottom:10px!important;
+  line-height: 1.5!important;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  }
+/*fin hero*/
+
+
+/*section services*/
+#services{
+  background-color:rgb(75, 202, 255);
+  height:400px;
+
+}
+.titleservices{
+    font-family: 'Segeo UI Light',arial, sans-serif;
+  font-size:40px;
+
+}
+.servicescol{
+  font-family: 'Segeo UI Semibold',arial, sans-serif;
+}
+.undertitle {
+  font-family: 'Myriad Pro regular';
+  font-size:32px;
+  }
+
+.servicestext{
+  font-family: 'Myriad Pro regular';
+  font-size: 13px;
+}
+.text-underline{
+  text-decoration-line: underline;
+}
+/*fin services*/
+
+/*portfolio*/
+#portfolio{
+background-color:#fff;
+min-height:845px;
+}
+.titleportfolio{
+  font-family: 'Segeo UI Light',arial, sans-serif;
+}
+.textmenu{
+  font-family:'SEGEO Bold', arial, sans-serif;
+  color:rgba(53,63,70,0)!important;
+}
+.portfolioimg img{
+  display:block;
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  background-color: rgb(81, 95, 103,0.8);
+  position:relative;
+}
+.imageoverlay{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+img{
+  transition:0.5s;
+}
+.imageoverlaysymbol{
+  font-family: 'Segeo UI Light';
+  font-size: 42px;
+  color:white;
+  opacity:0;
+}
+.portfolioimg:hover img{
+opacity:0.3;
+}
+.portfolioimg:hover .imageoverlaysymbol{
+  opacity:1;
+}
+
+/*justdefault*/
+
+#justdefault{
+  min-height:472px;
+}
+.justdefaulttitle{
+  font-family: 'Segeo UI Light',arial, sans-serif;
+  font-size: 40px;
+    }
+.justdefaultparagraph{
+  font-family: 'SEGEO Normal',arial, sans-serif;
+  font-size: 18px;
+}
+  .button {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "SegoeUI-Bold", serif;
+    font-size: 1em;
+    color: #353f46;
+    text-transform: uppercase;
+    border: 2px solid #353f46;
+    padding: 16px 38px;
+    background: transparent;
+    cursor: pointer;
+}
+.video{
+  width= 640px;
+  height= 352px;
+}
+
+/*fin de justdefault*/
+
+
+/*twitter*/
+#twitter{
+  background-color:rgb(75, 202, 255);
+  min-height:305px;
+  font-family: 'Segeo UI Light',arial, sans-serif;
+}
+.twittertitle{
+  font-family: 'Segeo UI Light',arial, sans-serif;
+  font-size: 40px;
+  text-align-last:justify;
+  }
+.twittertext{
+  font-family: 'SEGEO Normal',arial, sans-serif;
+  font-size:26px;
+  color:white;
+}
+/* fin twitter*/
+
+  /*whoami*/
+  #whoami{
+  background-image: url(images/whois/imagecontact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgb(53, 63, 71);
+  height: 505px;
+  }
+  #whoami{
+  background-color: rgb(53, 63, 71);
+  z-index:999;
+  }
+.whoamititle{
+  font-family: 'Segeo UI Light',arial, sans-serif;
+  font-size: 40px;
+}
+.iconessociales{
+  font-size:20px;
+  }
+/*fin de whoami*/
+
+  /*testimonials*/
+  #testimonials{
+    background-color:#fff;
+    height:305px;
+    font-family: 'Segeo UI Light',arial, sans-serif;
+  }
+  .testimonialstitle {
+    font-family: 'Segeo UI Light',arial, sans-serif;
+    font-size: 40px;
+    text-align-last:justify;
+  }
+  .testimonialstext{
+    font-family: 'SEGEO Normal',arial, sans-serif;
+    font-size:26px;
+
+  }
+  /*fin de testimonials*/
+
+/*contact*/
+#contact {
+  background-image: url(images/contact/contactcup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 815px;
+}
+.formgroup input, .formgroup textarea{
+  background:none;
+}
+button {
+  -webkit-appearance:0!important;
+}
+.btn{
+  border-radius:0!important;
+  width:20rem;
+}
+/*fin de contact*/
+
+
+/*footer*/
+#pagefooter{
+background-color: rgb(53, 63, 71);
+height:180px;
+}
+
+#pagefooter li a {
+font-family: 'Myriad Pro regular';
+font-size: 18.67px;
+}
+/*fin fe footer/*
