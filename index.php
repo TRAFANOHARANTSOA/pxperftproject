@@ -191,7 +191,7 @@
           <div class="row text-white formgroup">
               <div class="col">
                   <label class="text-uppercase">Full name</label>
-                  <input type="text" class="form-control background-transparent">
+                  <input type="text" class="form-control">
                 </div>
               <div class="col">
               <p>Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
@@ -200,7 +200,7 @@
             <div class="row text-white formgroup">
               <div class="col">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control background-transparent" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
               <div class="col">
                   <p><span>Linda Newman</span><br>
@@ -213,7 +213,7 @@
               <div class="row text-white formgroup">
                 <div class="col">
                   <label class="text-uppercase">Message</label>
-                  <textarea name="description" id="description" rows="8" class="form-control background-none" ></textarea><br>
+                  <textarea name="description" id="description" rows="8" class="form-control" ></textarea><br>
                   <button class="btn btn-primary text-uppercase" type="submit">Message</button>
                 </div>
               </div>
