@@ -6,6 +6,7 @@
           <div class="row  servicescol" >
             <div class="col-sm-12">
                 <h1 class="text-uppercase mt-5 mb-5 titleservices"><span class="text-underline">ser</span>vices</h1>
+                
             </div>
             <div class="col-sm-3" >
               <img src="images/services/coffee.gif" class="img-fluid mb-4 " alt="coffee">
@@ -183,7 +184,7 @@
 
 
 <section id="contact">
-    <div class="container  text-white pt-5 pb-4">
+    <div class="container text-white pt-5 pb-4">
         <h2 class="text-uppercase pt-5 pb-5"><span class="text-underline">co</span>ntact</h2>
     </div>
     <div class="container  ">

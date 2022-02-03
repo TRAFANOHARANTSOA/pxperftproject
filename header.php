@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d4f9557e6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
-    <script src="https://kit.fontawesome.com/d4f9557e6e.js" crossorigin="anonymous"></script>
   </head>
   <body>
   <header class="bgimg ">
@@ -37,13 +36,13 @@
       </div>
     </div>
   </div>-->
-
-    <nav class=" navbar navbar-expand-lg bgcouleur">
-      <div class="container  pl-0 pr-0"> <!--les paddings du container doivent être enlevés -->
+    <nav class="container-fluid navbar navbar-expand-lg bgcouleur ">
+      <div class="container-fluid align-items-center pl-0 pr-0"><!--les paddings du container doivent être enlevés -->
         <a class="navbar-brand text-white text-uppercase easy" href="#">blu<span class="edeeasy">e</span>asy</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
           <ul class="navbar-nav text-uppercase ">
             <li class="nav-item">
@@ -65,6 +64,7 @@
         </div>
       </div>
     </nav>
+
         <div class="container  pl-0 pr-0"> <!--les paddings du container doivent être enlevés -->
           <p class="phrasedaccueil "> <!--élément flex en direction colonne et wrappé -->
             <span class=" text-uppercase text-white ">"i'm looking for the unexpected.</span>
